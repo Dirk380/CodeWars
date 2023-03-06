@@ -1,4 +1,4 @@
-package com.example;
+package com.example.EightKyu;
 
 public class EvenOrOdd {
     public static String even_or_odd(int number) {

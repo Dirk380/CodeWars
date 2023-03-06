@@ -1,4 +1,4 @@
-package com.example;
+package com.example.EightKyu;
 
 public class GreetMe {
     public static void greet (String name){

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.EightKyu;
 
 public class SheepCounter {
     static Boolean[] arrayOfSheeps = {true, true, true, false,

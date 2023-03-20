@@ -1,4 +1,4 @@
-package com.example.EightKyu;
+package com.example.EightKyu.Strings;
 
 public class ReverseString {
     public static void solution(String str){

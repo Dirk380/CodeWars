@@ -1,9 +1,10 @@
 package com.example.EightKyu;
 
 
+import com.example.EightKyu.Arrays.SheepCounter;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+
 public class SheepCounterTest {
 
         Boolean[] array1 = {true,  true,  true,  false,

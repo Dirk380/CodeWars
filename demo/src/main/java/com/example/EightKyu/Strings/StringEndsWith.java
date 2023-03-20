@@ -1,4 +1,4 @@
-package com.example.EightKyu;
+package com.example.EightKyu.Strings;
 
 public class StringEndsWith {
     public static boolean end(String str, String end){

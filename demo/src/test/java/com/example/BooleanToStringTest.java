@@ -1,6 +1,6 @@
 package com.example;
 
-import com.example.EightKyu.BooleanToString;
+import com.example.EightKyu.Strings.BooleanToString;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

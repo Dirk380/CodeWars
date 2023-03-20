@@ -1,6 +1,6 @@
 package com.example;
 
-import com.example.EightKyu.GenderReveal;
+import com.example.EightKyu.Strings.GenderReveal;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

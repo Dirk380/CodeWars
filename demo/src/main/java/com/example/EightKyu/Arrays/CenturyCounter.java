@@ -1,4 +1,4 @@
-package com.example.EightKyu;
+package com.example.EightKyu.Arrays;
 
 public class CenturyCounter {
 

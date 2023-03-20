@@ -1,5 +1,9 @@
 package com.example.EightKyu;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Objects;
+
 public class SheepCounter {
     static Boolean[] arrayOfSheeps = {true, true, true, false,
             true, true, true, true,
@@ -9,18 +13,10 @@ public class SheepCounter {
             false, false, true, true};
 
 
-    // loop through arrayOfSheeps and when true counter ++;
+
+
     public static int countSheeps(Boolean[] arrayOfSheeps) {
-        int counter = 0;
-        for (Boolean present : arrayOfSheeps) {
-            if (present != null && present) {
-                counter++;
-            }
-
-
-        }
-        System.out.println(counter);
-        return counter;
+        return Arrays.stream(arrayOfSheeps).filter(Objects::nonNull).filter(x -> x).toArray().length;
     }
 
     public static void main(String[] args) {
